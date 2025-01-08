@@ -61,7 +61,8 @@ ul>li>a:hover{
 .container{
     display: flex;
     align-items: center;
-    width: 100%;     
+    width: 100%;
+    padding-top: 50px; 
 }
 
 .candy{
