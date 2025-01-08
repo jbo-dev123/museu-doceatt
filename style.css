@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    font-family: Poppins; 
+    margin: 0;
+    padding: 0;  
+}
+
+.bar{
+    max-width: 1280px;
+    margin: auto;    
+}
+
+span{
+    color:#EA1C2C;
+}
+
+.flex{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;    
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header.rolagem{
+    background-color:#f3d5d0;
+    padding: 20px 4%; 
+    box-shadow: 5px 0.5px 15px rgba(0, 0, 0, 0.418);
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color:  rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+ul>li>a:hover{
+    color: #EA1C2C;
+    transition: 1.5s;
+}
+
+.container,.container2{
+    background-color:  #f5d9d5; 
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+     
+}
+
+.candy{
+    flex: 1;    
+    font-size:50px;
+    font-weight: 250;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.barra{
+    color: #EA1C2C;
+}
+
+img{
+   flex:1;
+   max-width: 100%;
+   height: 700px;
+   border-radius: 50%;
+   padding: 20px;
+   margin-top: 100px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;    
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.candy2{
+    flex: 1;
+    font-weight: 250;
+    text-transform: uppercase;
+    color: #eA1C2C;
+    text-align: center;
+}
+
+.lorem{   
+    padding-left:10%;
+    padding-right: 10%;
+    text-transform: none;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(241, 117, 137);
+}
+
+.loli{
+   flex:1;
+   max-width: 20%;
+   height: auto;
+}
+
+.titulo-h2{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+
+.secoes{
+    max-width: 100%;
+    
+}
+
+.informacoes{
+    display: flex;
+    
+    background-color: #f1b7af;
+}
+
+.info1, .info2, .info3{
+    padding-top:50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #ee4351;
+    font-size:14px ;
+    color: white;
+    
+}
+
+.lorem-h1{
+    background-color: #ee4351;
+    color: #f5d9d5;
+    font-weight: 300;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+.lorem2{
+    background-color: #ee4351;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
