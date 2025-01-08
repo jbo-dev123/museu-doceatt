@@ -32,6 +32,7 @@ header.rolagem{
     background-color:#f3d5d0;
     padding: 20px 4%; 
     box-shadow: 5px 0.5px 15px rgba(0, 0, 0, 0.418);
+    transition: 2s;
 }
 
 header ul{
