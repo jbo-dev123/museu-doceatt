@@ -61,8 +61,7 @@ ul>li>a:hover{
 .container{
     display: flex;
     align-items: center;
-    width: 100%;
-     
+    width: 100%;     
 }
 
 .candy{
@@ -84,15 +83,16 @@ img{
    height:850px;
    border-radius: 50%;
    margin-top: 100px;
+   padding: 50px;
+
 }
 
 .container2{
     display: flex;
     align-items: center;    
     flex-wrap: wrap;
-    width: 100%;
-    padding-top: 80px;
-    padding: 150px;
+    width: 100%;    
+    padding: 60px;
 
 }
 
@@ -141,7 +141,7 @@ img{
     padding-top:50px;
     padding-left: 50px;
     padding-right: 50px;
-    background-color: #ee4351;
+    background-color: #e0c4df;
     font-size:14px ;
     color: white;
     border-right: 1px solid rgb(255, 255, 255);
@@ -152,13 +152,13 @@ img{
 }
 
 .lorem-h1{
-    background-color: #ee4351;
-    color: #f5d9d5;
+    background-color: #e0c4df;
+    color: #ffffff;
     font-weight: 300;
 }
 
 .lorem2{
-    background-color: #ee4351;
+    background-color: #e0c4df;
     font-weight: 300;
     padding-bottom: 30px;
     text-align: justify;
