@@ -106,7 +106,7 @@ img{
     text-align: center;
 }
 
-.lorem{   
+.lorem1, .lorem2, .lorem3{   
     padding-left:10%;
     padding-right: 10%;
     text-transform: none;
@@ -159,14 +159,14 @@ img{
     font-weight: 300;
 }
 
-.lorem2{
+.lorem4{
     background-color: #e0c4df;
     font-weight: 300;
     padding-bottom: 30px;
     text-align: justify;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     header ul li {
         display: inline-block; 
         margin: 0 20px;
@@ -190,19 +190,30 @@ img{
     }
     
 
-    .lorem {
+    .lorem1, .lorem2, .lorem3 {
         padding-left: 5%;
         padding-right: 5%;
         font-size: 16px;
         text-align: justify;
     }
 
-    .titulo-h2 {
+    .titulo-h2{
         font-size: 24px;
     }
     
     .candy{
         padding-top: 100px;
     }
+
+    .leite{
+        order: 2;
+    }
+
+    .taca{
+        order: 2;
+        padding-bottom: 20px;
+    }
 }
+
+
 
