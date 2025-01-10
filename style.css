@@ -12,6 +12,7 @@
 
 span{
     color:#EA1C2C;
+    padding-right: 50px;
 }
 
 button{
@@ -81,6 +82,13 @@ ul>li>a:focus{
     color: #EA1C2C;
 }
 
+.icon{
+    position: absolute;
+    left:220px; 
+    top: 50%; 
+    transform: translateY(-105%);
+    max-height: 180px;
+}
 
 
 .container,.container2{
@@ -196,11 +204,17 @@ img{
 }
 
 @media screen and (max-width: 768px) {
+    
     header ul li {
         display: inline-block; 
-        margin: 0 20px;
+        margin:0 20px;
         text-align: center;
-        justify-content: center;
+        justify-content:center;
+    }
+    
+    span{
+        color:#EA1C2C;
+        padding-right: 30px;
     }
 
     img {
@@ -213,14 +227,25 @@ img{
     }
 
     button{
-        right: 100px;         
+        right: 50px;
+        margin: auto;
     }
-    
+
+    .icon{
+     left:-100px; 
+     top:0; 
+     transform: translateY(0%);
+     max-width: 50px; 
+     height:auto;     
+     position: relative; 
+     margin: 0;
+     padding: 0;
+}    
 
     .container, .container2 {
         display: flex;
         flex-direction: column; 
-        padding: 20px;        
+        padding:60px;        
     }
     
 
