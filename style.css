@@ -210,16 +210,19 @@ img{
         margin:0 20px;
         text-align: center;
         justify-content:center;
+        position: relative;
+        left: -40px;
     }
     
-    span{
-        color:#EA1C2C;
-        padding-right: 30px;
+    .doce{
+        position: relative;
+        left: -30px;
     }
+    
 
     img {
         height: auto;
-        width: 100%;
+        width: 90%;
         border-radius: 0;
         margin-top: 20px;
         padding: 10px;
