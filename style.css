@@ -119,7 +119,7 @@ ul>li>a:focus{
 
 img{
    flex:1;
-   max-width: 930PX;
+   max-width: 900PX;
    height:850px;
    border-radius: 50%;
    margin-top: 100px;
@@ -238,8 +238,7 @@ img{
 
     .hand{
         position: relative;
-        left:0px;
-        
+        left:0px;        
     }
 
     button{
