@@ -49,6 +49,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1000;
 }
 
 header.rolagem{
@@ -129,6 +130,7 @@ img{
 .hand{
     position: relative;
     right:45px;
+    z-index: 1;
 }
 
 .container2{
@@ -232,6 +234,12 @@ img{
         margin-top: 20px;
         padding: 10px;
         border-radius: 40px;
+    }
+
+    .hand{
+        position: relative;
+        left:0px;
+        
     }
 
     button{
