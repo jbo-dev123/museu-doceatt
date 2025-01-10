@@ -14,6 +14,19 @@ span{
     color:#EA1C2C;
 }
 
+button{
+    position: absolute;
+    right: 250px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    border: 1px solid #EA1C2C;
+    padding: 10px 20px;
+    background-color: #EA1C2C;
+    color: white;
+    cursor: pointer;
+    border-radius:40px;
+}
+
 .flex{
     display: flex;
     align-items:center;
@@ -52,7 +65,14 @@ header ul li a{
 ul>li>a:hover{
     color: #EA1C2C;
     transition: 1.5s;
+    cursor: pointer;    
 }
+
+ul>li>a:focus{
+    color: #EA1C2C;
+}
+
+
 
 .container,.container2{
     background-color:  #f5d9d5; 
@@ -181,6 +201,19 @@ img{
         margin-top: 20px;
         padding: 10px;
     }
+
+    button{
+        position: absolute;
+        right: 100px; 
+        top: 50%; 
+        transform: translateY(-50%); 
+        border: 1px solid #EA1C2C;
+        padding: 10px 20px;
+        background-color: #EA1C2C;
+        color: white;
+        cursor: pointer;
+        border-radius:40px;
+    }
     
 
     .container, .container2 {
@@ -216,9 +249,11 @@ img{
 }
 
 @media screen and (max-width:430px){
+
     header{
         display: none;
     }
+
     img{
         margin: auto;
     }
@@ -238,11 +273,13 @@ img{
     .lorem-h1{
         text-align: justify;
         font-size:15px;
-        color: #EA1C2C;
+        color: #ffffff;
+        padding-bottom: 5px;
     }
 
     .lorem4{
-        font-size: 12px;        
+        font-size: 12px;
+        text-align: justify;
     }
 }
 
