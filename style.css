@@ -7,7 +7,7 @@
 
 .bar{
     max-width: 1280px;
-    margin: auto;    
+    margin: auto;
 }
 
 span{
@@ -15,11 +15,7 @@ span{
     padding-right: 50px;
 }
 
-button{
-    position: absolute;
-    right: 250px; 
-    top: 50%; 
-    transform: translateY(-50%); 
+button{    
     border: 1px solid #EA1C2C;
     padding: 10px 20px;
     background-color: #EA1C2C;
@@ -33,7 +29,6 @@ button:hover,button:focus{
     border-color: #f378ed;
     color: #ffffff;
     box-shadow: 0px 5px 10px -3px #ffffff;
-    transform: translateY(-20px);
     background-color: #f378ed;
 }
 
@@ -41,7 +36,7 @@ button:hover,button:focus{
 .flex{
     display: flex;
     align-items:center;
-    justify-content: center;
+    justify-content: space-between;    
 }
 
 header{
@@ -66,7 +61,7 @@ header ul{
 
 header ul li{
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 20px;
 }
 
 header ul li a{
@@ -79,16 +74,16 @@ ul>li>a:hover,ul>li>a:focus{
     transition: 1.5s;
     cursor: pointer;    
 }
-
-
-
-.icon{
-    position: absolute;
-    left:220px; 
-    top: 50%; 
-    transform: translateY(-105%);
-    max-height: 180px;
+.icon{       
+    max-width:60px; 
+    height:auto;     
+    margin: 0;
+    padding: 0;        
 }
+
+
+
+
 
 
 .container,.container2{
@@ -117,13 +112,12 @@ ul>li>a:hover,ul>li>a:focus{
 }
 
 img{
-   flex:1;
+   
    max-width: 900PX;
    height:850px;
    border-radius: 50%;
    margin-top: 100px;
    padding: 50px;
-
 }
 
 .hand{
@@ -210,27 +204,11 @@ img{
     text-align: justify;
 }
 
-@media screen and (max-width: 768px) {
-    
-    header ul li {
-        display: inline-block; 
-        margin:0 20px;
-        text-align: center;
-        justify-content:center;
-        position: relative;
-        left: -40px;
-    }
-    
-    .doce{
-        position: relative;
-        left: -30px;
-    }
-    
+@media screen  and (max-width: 768px) {
 
     img {
         height: auto;
         width: 90%;
-        border-radius: 0;
         margin-top: 20px;
         padding: 10px;
         border-radius: 40px;
@@ -246,16 +224,13 @@ img{
         margin: auto;
     }
 
-    .icon{
-     left:-100px; 
-     top:0; 
-     transform: translateY(0%);
-     max-width: 50px; 
-     height:auto;     
-     position: relative; 
-     margin: 0;
-     padding: 0;
-}    
+    .icon{       
+        max-width:60px; 
+        height:auto;     
+        margin: 0;
+        padding: 0;        
+   }
+   
 
     .container, .container2 {
         display: flex;
@@ -289,12 +264,12 @@ img{
     }
 }
 
-@media screen and (max-width:430px){
+@media screen and (min-width:390px)and (max-width:600px){
 
     header{
         display: none;
     }
-
+ 
     img{
         width: 100%;
         margin: auto;
@@ -319,7 +294,7 @@ img{
         padding-bottom: 5px;
     }
 
-    .lorem4{
+    .lorem4{  
         font-size: 12px;
         text-align: justify;
     }
@@ -327,3 +302,54 @@ img{
 
 
 
+
+@media screen and (min-width:770px)and (max-width:1324px){
+   
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10em;
+    }
+
+    .container2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .candy{
+        font-size:clamp(30px, 10vw, 50px);
+    }
+
+    img{       
+        max-width: 700PX;
+        height:auto;
+        border-radius: 20%;
+        margin-top: 100px;
+        padding: 50px;
+        object-fit: cover;
+     }
+
+    .hand{
+        position: relative;
+        left: 00px;
+    }
+   
+
+    .leite{
+        order: 2;
+    }
+
+    .taca{
+        order: 2;
+        padding-bottom: 20px;
+    }
+
+    .icon{       
+        max-width:60px; 
+        height:auto;     
+        margin: 0;
+        padding: 0;        
+   }
+   
+   
+}
