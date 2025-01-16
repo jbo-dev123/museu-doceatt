@@ -2,7 +2,7 @@
     box-sizing: border-box;
     font-family: Poppins; 
     margin: 0;
-    padding: 0;  
+    padding: 0;
 }
 
 .bar{
@@ -81,25 +81,16 @@ ul>li>a:hover,ul>li>a:focus{
     padding: 0;        
 }
 
-
-
-
-
-
 .container,.container2{
     background-color:  #f5d9d5; 
 }
 
 
 .container{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding-top: 50px; 
+    padding-top: 50px;
 }
 
-.candy{
-    flex: 1;    
+.candy{   
     font-size:50px;
     font-weight: 250;
     text-transform: uppercase;
@@ -112,7 +103,6 @@ ul>li>a:hover,ul>li>a:focus{
 }
 
 img{
-   
    max-width: 900PX;
    height:850px;
    border-radius: 50%;
@@ -120,11 +110,11 @@ img{
    padding: 50px;
 }
 
-.hand{
+/* .hand{
     position: relative;
     right:45px;
     z-index: 1;
-}
+} */
 
 .container2{
     display: flex;
@@ -216,7 +206,7 @@ img{
 
     .hand{
         position: relative;
-        left:0px;        
+        left:0px;      
     }
 
     button{
@@ -229,6 +219,13 @@ img{
         height:auto;     
         margin: 0;
         padding: 0;        
+   }
+
+   
+
+   .container{
+        padding-bottom: 10PX;
+        align-items: center;
    }
    
 
@@ -252,6 +249,7 @@ img{
     
     .candy{
         padding-top: 100px;
+        font-size: 40px;
     }
 
     .leite{
@@ -287,6 +285,8 @@ img{
         
     }
 
+    
+
     .lorem-h1{
         text-align: justify;
         font-size:15px;
@@ -297,6 +297,9 @@ img{
     .lorem4{  
         font-size: 12px;
         text-align: justify;
+    }
+    .container{
+        align-items: center;
     }
 }
 
@@ -309,6 +312,7 @@ img{
         display: flex;
         flex-direction: column;
         padding-top: 10em;
+        align-items: center;
     }
 
     .container2{
@@ -344,12 +348,42 @@ img{
         padding-bottom: 20px;
     }
 
+    .loli{        
+        max-width: 182px;
+        max-height: 182px;
+        margin: 0;
+     }
+
     .icon{       
         max-width:60px; 
         height:auto;     
         margin: 0;
         padding: 0;        
    }
-   
-   
+}
+
+@media screen and (min-width:1325px) {
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+
+    .hand{
+        width:850PX;
+        height:800px;
+        object-fit: cover;
+    }
+
+    .candy{
+        font-size: 45px;
+        padding-left: 55px;
+    }
+
+    .loli{        
+        max-width: 182px;
+        max-height: 182px;
+     }
 }
